@@ -34,6 +34,9 @@ section h1{
     padding: 10px;
     display: block;
 }
+.campo input{
+    height: 30px;
+}
 input[type=submit]{
     display: block;
     font-size: 1em;
@@ -75,9 +78,14 @@ a.botao:hover{
     display: block;
 }
 .campo{
-    display: block;
+    display: flex;
+    align-items: center;
     border-radius: 5px;
     margin: 8px 0;
+}
+.campo input{
+    width: 190px;
+    margin-left: 6px;
 }
 .container{
     display: flex;

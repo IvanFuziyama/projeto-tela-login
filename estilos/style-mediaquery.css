@@ -17,6 +17,9 @@
         float: left;
         width: 50%;
     }
+    .campo input{
+        width: 300px;
+    }
 }
 @media screen and (min-width: 992px){
     body{
@@ -34,5 +37,8 @@
     #formulario{
         float: left;
         width: 50%;
+    }
+    .campo input{
+        width: 300px;
     }
 }
