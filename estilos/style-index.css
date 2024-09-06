@@ -5,7 +5,7 @@
     --cor1: #789CCF;
     --cor2: #CFB178;
     --cor3: #7FCF78;
-    
+    --cor4: #a0cf9c;
 }
 *{
     margin: 0;
@@ -21,9 +21,9 @@ body{
 section#login{
     background-color: var(--cor0);
     width: 250px;   
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
-    margin-top: 40px;
+    margin-top: 50px;
     transition: 0.5s;
 }
 section h1{
@@ -34,8 +34,38 @@ section h1{
     padding: 10px;
     display: block;
 }
-input{
-    margin: 10px;
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 38px;
+    background-color: var(--cor3);
+    border: none;
+    border-radius: 10px;
+}
+input[type=submit]:hover{
+    background-color: #598f54;
+    cursor: pointer;
+}
+a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 38px;
+    background-color: var(--cor0);
+    border: 2px solid var(--cor3);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+a.botao span{
+    font-size: 0.8em;
+}
+a.botao:hover{
+    background-color: var(--cor4);
 }
 #imagem{
     background: #789CCF url(../imgs/metal1.jpg);
@@ -45,7 +75,9 @@ input{
     display: block;
 }
 .campo{
-    
+    display: block;
+    border-radius: 5px;
+    margin: 8px 0;
 }
 .container{
     display: flex;
